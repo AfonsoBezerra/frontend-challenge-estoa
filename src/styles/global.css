@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-white
+}
+
+body.select-reset {
+  position: unset !important;
+  @apply !pointer-events-auto !overflow-auto !overscroll-auto !mr-0
+}
+
+.max-desk {
+  max-width: 1200px;
+  @apply mx-auto
+}
+
+.title {
+  @apply text-5xl font-sans-secondary uppercase text-center max-[420px]:text-3xl
+}
