@@ -17,5 +17,5 @@ body.select-reset {
 }
 
 .title {
-  @apply text-5xl font-sans-secondary uppercase text-center max-[420px]:text-3xl
+  @apply text-5xl font-sans-secondary uppercase text-center max-[540px]:text-2xl
 }
