@@ -2,8 +2,8 @@ import { Background } from 'components/Background';
 import { Link } from 'react-router-dom';
 
 export const NotFount = () => (
-  <main className="max-desk px-4 overflow-hidden">
-    <section className="relative flex flex-col h-screen items-center justify-center">
+  <main className="px-4 overflow-hidden">
+    <section className="max-desk relative flex flex-col h-screen items-center justify-center">
       <h1 className="text-9xl max-[400px]:text-7xl font-sans-secondary">404</h1>
       <p className="text-xl font-sans-secondary text-zinc-600">
         Hi, say &rdquo;hey&ldquo; for Bob and goodbye!

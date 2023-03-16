@@ -19,7 +19,7 @@ export const Home = () => {
   );
 
   return (
-    <main className="max-desk mb-24 px-4">
+    <main className="mb-24 px-4">
       {true && <ErrorToast hasError={hasError} />}
       <section className="relative flex h-screen items-center justify-center">
         <div>
@@ -41,8 +41,8 @@ export const Home = () => {
         </button>
       </section>
 
-      <section className="flex flex-col">
-        <div className="flex items-end gap-8 mb-4">
+      <section className="max-desk flex flex-col">
+        <div className="flex items-end justify-center gap-8 mb-4 flex-wrap">
           <h2 className="text-2xl text-zinc-500 font-sans-secondary">Characters:</h2>
           {!error && data && (
             <Select

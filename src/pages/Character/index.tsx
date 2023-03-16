@@ -83,7 +83,7 @@ export const Character = () => {
 
   if (loading && isLoading)
     return (
-      <main className="max-desk animate-pulse">
+      <main className="animate-pulse">
         <Background />
       </main>
     );
@@ -91,7 +91,7 @@ export const Character = () => {
   if ((error || !data) && !isLoading) return <NotFount />;
 
   return (
-    <main className="max-desk mb-24 px-4">
+    <main className="mb-24 px-4">
       <Link
         to="/"
         className="fixed top-4 left-4 p-2 bg-zinc-800 rounded-md shadow-md transition-colors hover:bg-zinc-700"
@@ -108,7 +108,7 @@ export const Character = () => {
         </div>
         <h1 className="title text-yellow-500">{data!.name}</h1>
       </section>
-      <section className="mt-10 flex flex-col items-center">
+      <section className="max-desk mt-10 flex flex-col items-center">
         <h2 className="text-2xl text-zinc-500 mb-8 font-sans-secondary">Details:</h2>
         <div>
           <ul className="flex flex-col gap-4">
